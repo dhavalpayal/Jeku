@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { JaydipaComponent } from './jaydipa/jaydipa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JaydipaComponent
   ],
   imports: [
     BrowserModule,
